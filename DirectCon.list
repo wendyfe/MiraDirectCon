@@ -1,45 +1,71 @@
-# Combined Direct Rules for Shadowrocket (已排除 xptv.sgmodule 覆盖部分，进一步精简)
-# 来源：eulac-dev ResourceSite + PanVod + wendyfe DirectCon
-# 排除：fangkuia/XPTV 的 xptv.sgmodule 中所有已匹配域名/IP/keyword
-# 剩余焦点：独特资源站子域 + 少数 OSS 子域 + 自定义端口
-# Last update: 2026-02
-
-# 独特资源站（未被 xptv 覆盖的核心部分）
-DOMAIN,666.666291.xyz
-DOMAIN,www.muou.asia
-DOMAIN,www.muou.site
-DOMAIN,fmao.shop
-DOMAIN,www.miqk.cc
-DOMAIN,xiaomi666.fun
-DOMAIN,tv.214521.xyz
-DOMAIN,duo.hidns.vip
-DOMAIN,wexwp.cc
-
+DST-PORT,20720
+DOMAIN-SUFFIX,xsayang.fun
+DOMAIN-SUFFIX,123.666291.xyz
+#二小
 DOMAIN-SUFFIX,2xiaopan.fun
-DOMAIN-SUFFIX,erxiaopan.fun
-DOMAIN-SUFFIX,xhww.net
 DOMAIN-SUFFIX,erxiaofn.click
 DOMAIN-SUFFIX,erxiaofn.site
 DOMAIN-SUFFIX,erixaopan.fun
-DOMAIN-SUFFIX,123.666291.xyz
-
-DOMAIN-KEYWORD,erxiaofn     # 保留这个 keyword，因为 xptv 无对应覆盖
-DOMAIN-KEYWORD,yydsys       # 保留，但如果实际测试 yydsys 已覆盖，可删
+DOMAIN-SUFFIX,wexwp.cc
+DOMAIN-SUFFIX,xhww.net
+#玩偶
 DOMAIN-KEYWORD,wogg
-
-# 阿里/百度/其他 OSS 子域（xptv 只覆盖主域，未精确子域，可选保留）
+#多多
+DOMAIN,tv.214521.xyz
+DOMAIN,duo.hidns.vip
+DOMAIN-KEYWORD,yydsys
+#115
 DOMAIN,fhnfile.oss-cn-shenzhen.aliyuncs.com
+DOMAIN-SUFFIX,115.com
+DOMAIN-SUFFIX,115cdn.com
+DOMAIN-SUFFIX,115cdn.net
+DOMAIN-SUFFIX,115img.com
+DOMAIN-SUFFIX,116cd.cn
+DOMAIN-SUFFIX,116cd.com
+DOMAIN-SUFFIX,116cd.net
+DOMAIN-SUFFIX,anxia.com
+DOMAIN-SUFFIX,sq.cc
+
+#阿里/夸克/UC
+DOMAIN,cf.aliyun.com
+DOMAIN,ynuf.aliapp.org
+DOMAIN-SUFFIX,alipan.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,aliyundrive.com
+DOMAIN-SUFFIX,aliyundrive.net
+DOMAIN-SUFFIX,alibaba.com
+DOMAIN-SUFFIX,quark.cn
+DOMAIN-SUFFIX,uc.cn
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,aliyuncs.com
+
+#百度
 DOMAIN,himg.bdimg.com
 DOMAIN,staticiot.cdn.bcebos.com
 DOMAIN,thumbnail0.baidupcs.com
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,bdstatic.com
+
+#天翼
 DOMAIN,ux.21cn.com
+DOMAIN-SUFFIX,189.cn
+DOMAIN-SUFFIX,dlife.cn
+
+#迅雷
 DOMAIN,static.xbase.cloud
+DOMAIN-SUFFIX,xunlei.com
+DOMAIN-SUFFIX,a.88cdn.com
+
+#123
 DOMAIN,www.123912.com
 DOMAIN,www.123295.com
 DOMAIN,www.123865.com
-DOMAIN,cf.aliyun.com
-DOMAIN,ynuf.aliapp.org
+DOMAIN-SUFFIX,cjjd19.com
+DOMAIN-SUFFIX,123pan.com
+DOMAIN-SUFFIX,cnzz.com
 
-# IP & 端口（独特，未覆盖）
-IP-CIDR,103.45.162.207/32,no-resolve
-DST-PORT,20720
+#移动云盘
+DOMAIN-SUFFIX,cmicapm.com
+DOMAIN-SUFFIX,10086.cn
+DOMAIN-SUFFIX,139.com
+DOMAIN-SUFFIX,cmecloud.cn
