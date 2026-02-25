@@ -25,6 +25,7 @@ DOMAIN-SUFFIX,123.666291.xyz
 
 DOMAIN-KEYWORD,erxiaofn     # 保留这个 keyword，因为 xptv 无对应覆盖
 DOMAIN-KEYWORD,yydsys       # 保留，但如果实际测试 yydsys 已覆盖，可删
+DOMAIN-KEYWORD,wogg
 
 # 阿里/百度/其他 OSS 子域（xptv 只覆盖主域，未精确子域，可选保留）
 DOMAIN,fhnfile.oss-cn-shenzhen.aliyuncs.com
